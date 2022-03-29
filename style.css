@@ -1,0 +1,115 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: grey;
+  color: white;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+#gamePlayArea > button {
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20pt;
+  outline: none;
+  border: 0px #dadada solid;
+}
+
+.hidden {
+  display: none;
+}
+
+#gamePlayBtn1 {
+  background: #FF9999;
+}
+
+#gamePlayBtn1:active,
+#gamePlayBtn1.lit {
+  background: #ff0000;
+  color: white;
+}
+
+#gamePlayBtn2 {
+  background: #ffc099;
+}
+
+#gamePlayBtn2:active,
+#gamePlayBtn2.lit {
+  background: #ff6200;
+  color: white;
+}
+
+#gamePlayBtn3 {
+  background: #ffeb99;
+}
+
+#gamePlayBtn3:active,
+#gamePlayBtn3.lit {
+  background: #ffcc00;
+  color: white;
+}
+
+#gamePlayBtn4 {
+  background: #bfecac;
+}
+
+#gamePlayBtn4:active,
+#gamePlayBtn4.lit {
+  background: #5fd02f;
+  color: white;
+}
+
+#gamePlayBtn5 {
+  background: #99c5ff;
+}
+
+#gamePlayBtn5:active,
+#gamePlayBtn5.lit {
+  background: #006eff;
+  color: white;
+}
+
+#gamePlayBtn6 {
+  background: #9b99ff;
+}
+
+#gamePlayBtn6:active,
+#gamePlayBtn6.lit {
+  background: #4400ff;
+  color: white;
+}
+
+#gamePlayBtn7 {
+  background: #cc99ff;
+}
+
+#gamePlayBtn7:active,
+#gamePlayBtn7.lit {
+  background: #7F00FF;
+  color: white;
+}
+
